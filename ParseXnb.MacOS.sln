@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{2857B73E-F847-4B02-9238-064979017E93}") = "ParseXnb.MacOS", "ParseXnb\ParseXnb.MacOS.cproj", "{C4B1AFF7-ACD3-4EF7-B91E-EA821547B845}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C4B1AFF7-ACD3-4EF7-B91E-EA821547B845}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4B1AFF7-ACD3-4EF7-B91E-EA821547B845}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C4B1AFF7-ACD3-4EF7-B91E-EA821547B845}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C4B1AFF7-ACD3-4EF7-B91E-EA821547B845}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = ParseXnb\ParseXnb.MacOS.cproj
+		Policies = $0
+		$0.TextStylePolicy = $1
+		$1.inheritsSet = null
+		$1.scope = text/x-c++src
+		$0.TextStylePolicy = $2
+		$2.FileWidth = 120
+		$2.TabsToSpaces = False
+		$2.EolMarker = Windows
+		$2.inheritsSet = VisualStudio
+		$2.inheritsScope = text/plain
+		$2.scope = text/plain
+	EndGlobalSection
+EndGlobal

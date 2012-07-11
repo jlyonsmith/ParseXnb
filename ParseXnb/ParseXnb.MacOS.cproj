@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.0</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{C4B1AFF7-ACD3-4EF7-B91E-EA821547B845}</ProjectGuid>
+    <Target>Bin</Target>
+    <Language>CPP</Language>
+    <Compiler>
+      <Compiler ctype="GppCompiler" />
+    </Compiler>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\Debug</OutputPath>
+    <DefineSymbols>DEBUG MONODEVELOP</DefineSymbols>
+    <SourceDirectory>.</SourceDirectory>
+    <OutputName>ParseXnb</OutputName>
+    <CompileTarget>Bin</CompileTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>bin\Release</OutputPath>
+    <DefineSymbols>MONODEVELOP</DefineSymbols>
+    <SourceDirectory>.</SourceDirectory>
+    <OptimizationLevel>3</OptimizationLevel>
+    <OutputName>ParseXnb</OutputName>
+    <CompileTarget>Bin</CompileTarget>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="BinaryReader.cpp" />
+    <Compile Include="ContentReader.cpp" />
+    <Compile Include="GenericTypeReader.cpp" />
+    <Compile Include="GraphicsTypeReaders.cpp" />
+    <Compile Include="Logger.cpp" />
+    <Compile Include="MathTypeReaders.cpp" />
+    <Compile Include="MediaTypeReaders.cpp" />
+    <Compile Include="ParseXnb.cpp" />
+    <Compile Include="PrimitiveTypeReaders.cpp" />
+    <Compile Include="stdafx.cpp" />
+    <Compile Include="SystemTypeReaders.cpp" />
+    <Compile Include="TypeReaderManager.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="BinaryReader.h" />
+    <None Include="ContentReader.h" />
+    <None Include="GenericTypeReader.h" />
+    <None Include="GraphicsTypeReaders.h" />
+    <None Include="Logger.h" />
+    <None Include="MathTypeReaders.h" />
+    <None Include="MediaTypeReaders.h" />
+    <None Include="PrimitiveTypeReaders.h" />
+    <None Include="stdafx.h" />
+    <None Include="SystemTypeReaders.h" />
+    <None Include="TypeReader.h" />
+    <None Include="TypeReaderManager.h" />
+  </ItemGroup>
+</Project>
